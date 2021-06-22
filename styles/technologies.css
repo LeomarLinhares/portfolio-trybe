@@ -1,0 +1,104 @@
+.primaryTech {
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% - 4rem);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.primaryTech section {
+    display: flex;
+    flex-direction: column;
+
+    height: 500px;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.cardPrimary {
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    align-items: center;
+    justify-content: start;
+
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.cardPrimary img {
+    margin: 1rem;
+    min-width: 150px;
+}
+
+.cardPrimary p {
+    height: 50px;
+}
+
+.otherTechs {
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% - 4rem);
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.otherTechs section {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 2rem;
+}
+
+.otherTechs section h2 {
+    margin-bottom: 2rem;
+}
+
+.techContent {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    width: 500px;
+}
+
+.cardTech {
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100px;
+    max-height: 120px;
+
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.cardTech p {
+    height: 50px;
+}
+
+.cardTech img {
+    margin: 1rem;
+}
